@@ -6,5 +6,5 @@ List of projects I have worked on during my experience at a logistics company
   * Visualization: Power BI
 
 ## Proces
-  1 - ETL with MSSQL to create KPIs
-  2 - Power BI for data visualization
+  * 1 - ETL with MSSQL to create KPIs
+  * 2 - Power BI for data visualization
