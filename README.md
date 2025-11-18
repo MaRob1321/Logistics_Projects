@@ -1,10 +1,15 @@
-# Logistics_Projects
-List of projects I have worked on during my experience at a logistics company
+# Trcuk GPS
+With this project, I track the location of trucks that make long-distance trips
 
-## Technical habilites required for each project
-  * Gathering data: MSSQL
-  * Visualization: Power BI
+## Setup
+The project requires SQL (MSSQL) to gather the data and Power BI for visualization
+
+## Business request
+Warehouses operators from warehouses from all the country need to know the current position of the trucks that are travelling to their WH to organize internal tasks related to truck reception.
 
 ## Proces
-  * 1 - ETL with MSSQL to create KPIs
+  * 1 - ETL with MSSQL to gather the data
   * 2 - Power BI for data visualization
+
+## Clarification 
+The names of the columns and the data shown have been changed to avoid revealing sensitive information
