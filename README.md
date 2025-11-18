@@ -10,6 +10,7 @@ Warehouses operators from warehouses from all the country need to know the curre
 ## Proces
   * 1 - ETL with MSSQL to gather the data
   * 2 - Power BI for data visualization
+  * 3 - The data is updated every 15 minutes
 
 ## Clarification 
 The names of the columns and the data shown have been changed to avoid revealing sensitive information
