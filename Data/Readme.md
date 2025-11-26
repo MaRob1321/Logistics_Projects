@@ -1,1 +1,1 @@
-Los datos provienen de las queries Tracking_Vehiculos.sql y Novedades_Viajes.sql
+Se pueden ver los datos que se obtienen a partir de las SQL queries
