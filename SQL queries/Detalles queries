@@ -1,9 +1,0 @@
-*Tracking vehículos: 
-  Permite hacer el seguimiento de las troncales que viajan por el país. 
-  La información se toma de una API que reúne los datos de GPS de los vehículos.
-  Se actualiza cada 15 minutos.
-
-*Novedades viajes: 
-  Muestra las novedaes de los viajes que se publican por email.
-  La información de los mails se toma a través de un script que luego se guarda en el data lake de la empresa.
-  Se actualiza cada 15 minutos.
