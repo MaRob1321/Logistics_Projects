@@ -1,16 +1,25 @@
-# Trcuk GPS
-With this project, I track the location of trucks that make long-distance trips
+# Truck GPS – Seguimiento de Ubicación de Camiones
 
-## Setup
-The project requires SQL (MSSQL) to gather the data and Power BI for visualization. The data refresh every 15 minutes.
+## Descripción general
+Este proyecto permite visualizar la ubicación en tiempo real de los camiones que realizan traslados de larga distancia. La solución integra datos obtenidos desde SQL Server y los presenta mediante dashboards en Power BI, facilitando el control operativo y la toma de decisiones en los centros logísticos.
 
-## Business request
-Warehouses operators from warehouses from all the country need to know the current position of the trucks that are travelling to their WH to organize internal tasks related to truck reception.
+## Requisitos
+El proyecto utiliza las siguientes tecnologías:
+- SQL Server (MSSQL) para la extracción, transformación y carga (ETL) de los datos.
+- Power BI para la visualización interactiva. Actualización automática de los datos cada 15 minutos por DirectQuery
 
-## Proces
-  * 1 - ETL with MSSQL to gather the data.
-  * 2 - Power BI for data visualization
-  * 3 - The data is updated every 15 minutes
+## Necesidad del negocio
+Los operadores de almacenes de todo el país requieren conocer la posición actual de los camiones que se dirigen a sus centros logísticos.
+Esta información es clave para:
+- Anticipar la recepción de vehículos.
+- Organizar tareas internas relacionadas con la descarga, asignación de muelles y disponibilidad operativa.
+- Reducir tiempos de espera y mejorar la eficiencia del flujo logístico.
 
-## Clarification 
-The names of the columns and the data shown have been changed to avoid revealing sensitive information
+## Proceso
+- Extracción y procesamiento (ETL):
+Uso de SQL Server para recopilar y transformar datos provenientes de los sistemas de monitoreo y operaciones.
+- Visualización en Power BI:
+Construcción de dashboards interactivos que muestran la ubicación de los camiones, KPIs operativos y detalles de cada viaje.
+
+## Aclaración sobre los datos
+Los nombres de columnas, patentes y cualquier información sensible han sido anonimizados para su publicación, manteniendo la integridad operativa del proyecto y respetando la confidencialidad de la empresa.
